@@ -1,0 +1,16 @@
+risk_tier,top_risk_reason,customers,churn_rate_pct
+High,Tenure of 12 months or less,1098,67.5
+High,Electronic check payment,442,55.4
+Low,No elevated signal,734,1.1
+Low,Tenure of 12 months or less,542,17.0
+Low,Fiber optic service,533,9.6
+Low,Month-to-month contract,373,11.8
+Low,Paperless billing,339,1.5
+Low,No online security,290,8.3
+Low,High monthly charge,281,4.6
+Low,Electronic check payment,220,7.7
+Low,No tech support,164,2.4
+Medium,Electronic check payment,725,28.0
+Medium,Month-to-month contract,612,31.9
+Medium,Tenure of 12 months or less,546,37.4
+Medium,Fiber optic service,144,16.0

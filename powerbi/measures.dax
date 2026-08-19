@@ -1,0 +1,16 @@
+Total Customers = DISTINCTCOUNT(customer_risk_scores[customer_id])
+
+Actual Churners = CALCULATE([Total Customers], customer_risk_scores[churned] = 1)
+
+Actual Churn Rate = DIVIDE([Actual Churners], [Total Customers])
+
+High Risk Customers = CALCULATE([Total Customers], customer_risk_scores[risk_tier] = "High")
+
+High Risk Precision =
+DIVIDE(
+    CALCULATE([Actual Churners], customer_risk_scores[risk_tier] = "High", customer_risk_scores[sample] = "test"),
+    CALCULATE([Total Customers], customer_risk_scores[risk_tier] = "High", customer_risk_scores[sample] = "test")
+)
+
+Average Risk Score = AVERAGE(customer_risk_scores[risk_score])
+

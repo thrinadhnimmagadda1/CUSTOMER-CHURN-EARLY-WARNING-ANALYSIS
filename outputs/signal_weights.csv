@@ -1,0 +1,9 @@
+signal,active_customers,signal_churn_rate,baseline_churn_rate,weight
+Tenure of 12 months or less,1738,0.478136,0.266418,0.794682
+Electronic check payment,1884,0.460722,0.266418,0.729318
+Month-to-month contract,3104,0.429124,0.266418,0.610715
+Fiber optic service,2486,0.419147,0.266418,0.573268
+No online security,2803,0.417767,0.266418,0.568086
+No tech support,2781,0.417116,0.266418,0.565644
+High monthly charge,2882,0.356003,0.266418,0.336256
+Paperless billing,3334,0.335033,0.266418,0.257546

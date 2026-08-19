@@ -1,0 +1,4 @@
+risk_tier,customers,actual_churners,actual_churn_rate_pct,avg_risk_score
+High,284,185,65.1,86.7
+Medium,442,134,30.3,56.2
+Low,683,49,7.2,18.9
