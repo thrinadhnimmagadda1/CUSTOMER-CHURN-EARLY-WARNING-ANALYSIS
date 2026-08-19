@@ -291,13 +291,6 @@ In a real company, this project could be improved by adding:
 - Model monitoring by month
 - Fairness checks across customer groups
 
-## Resume bullet
-
-Built a customer churn early-warning system using SQL and Power BI, creating an interpretable 0-100 risk score from customer behavior and contract signals. Validated the score against a held-out test sample, where the High-risk tier achieved a 65.1% actual churn rate and 2.49x lift over baseline, enabling prioritized retention outreach.
-
-## Interview explanation
-
-I built a churn early-warning analysis to help a subscription business identify customers who were likely to cancel. I used SQL to clean the data, engineer churn risk signals, calculate data-driven signal weights, and create a 0-100 customer risk score. I then validated the score on a held-out test sample instead of only reporting the formula. The strongest result was that the High-risk tier had a 65.1% churn rate compared with a 26.1% baseline, giving a 2.49x lift. I also exported Power BI-ready files so the business could view risk tiers, top churn reasons, and an actionable customer list for retention outreach.
 
 ## Main takeaway
 
